@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.validate": [
+    "typescriptreact",
+    "javascript",
+    "javascriptreact",
+    "jsonc",
+    "json"
+  ],
+  "[typescriptreact][javascriptreact][typescript][javascript][json][jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
